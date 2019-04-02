@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		.wrapper{display:grid;
+			grid-template-columns :20px repeat(3,1fr) 20px;
+			grid-template-rows: repeat(3, 1fr);
+			border: 2px solid blue;
+			width: 400px;
+			height: 500px;
+			grid-column-gap: 10px;
+			grid-row-gap: 2em;}
+		#i1{background-color: orange;
+			grid-column-start: 1;
+			grid-column-end: 3;}
+		#i2{background-color: pink;}
+		#i3{background-color: lightyellow;}
+		#i4{background-color: ivory;
+			grid-column: 2/4;}
+		#i5{background-color: lightgreen;}
+		#i6{background-color: lightblue;}
+		#i7{background-color: green;}
+		#i8{background-color: blue;}
+		#i9{background-color: brown;
+			grid-column:3/5;}
+
+
+	</style>
+</head>
+<body>
+<div class="wrapper" align="center">
+	<div id="i1">1</div>
+	<div id="i2">2</div>
+	<div id="i3">3</div>
+	<div id="i4">4</div>
+	<div id="i5">5</div>
+	<div id="i6">6</div>
+	<div id="i7">7</div>
+	<div id="i8">8</div>
+	<div id="i9">9</div>
+
+	
+</div>
+</body>
+</html>
